@@ -45,6 +45,7 @@ min_idx = 0
 for  i in range(1, 5):
     if codes[i].score < codes[min_idx].score:
         min_idx = i
+        
 
 print(codes[min_idx].name, codes[min_idx].score)
 str.upp

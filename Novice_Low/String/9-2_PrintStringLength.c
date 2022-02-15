@@ -13,5 +13,5 @@ int main(void)
     while (s2[s2_len] != '\0')
         s2_len++;
     printf("%d", s1_len + s2_len);
-    return 0;
+    return (0);
 }
